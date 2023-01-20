@@ -1,0 +1,684 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Poppins', sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+} 
+a{
+	text-decoration: none;
+}
+a:{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-4 {
+	width: 33.33%;
+	float: left;
+}
+
+.header {
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	border-bottom: 1px solid #eee;
+}
+.header .navbar {
+	width: 100%;
+	display: block;
+	text-align: right;
+}
+.header .navbar li {
+	list-style: none;
+	display: inline-block;
+}
+.header .navbar li a {
+ display: block;
+ font-size: 14px;
+ font-weight: 400;
+ text-transform: capitalize;
+ margin: 10px 0px 0px 20px;
+ color: #0F2656;
+ transition: 1s;
+}
+.header .navbar li a:hover{
+	color: #008AFF;
+
+}
+.header .navbar li a:focus{
+	color: #008AFF;
+
+}
+.banner {
+	width: 100%;
+	float: left;
+	padding: 80px 0px 20px;
+	text-align: center;
+}
+.banner h1{
+	font-size: 52px;
+	line-height: 1.4em;
+	color: #0F2656;
+	font-weight: 700;
+	margin: 0px 0px 10px;
+}
+.banner p {
+ font-size: 14px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 400;
+ margin: 0px 0px 20px;
+} 
+.banner h1 span {
+	color: #008AFF;
+}
+.banner .banner-img {
+	width: 60%;
+}
+.sucessfull {
+	width: 100%;
+	float: left;
+	padding: 40px 0px 30px;
+}
+.sucessfull .left-box {
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.sucessfull .left-box h1 {
+font-size: 52px;
+	line-height: 1.4em;
+	color: #F15666;
+	font-weight: 700;
+	margin: 0px 15px 0px 5px;
+}
+.sucessfull .left-box p{
+	font-size: 14px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 400;
+ }
+ .sucessfull .right-box {
+ 	font-size: 40px;
+	line-height: 1.7em;
+	color: #0F2656;
+	font-weight: 700;
+	margin: 0px 0px 5px 15px;
+ }
+ .features {
+ 	width: 100%;
+ 	float: left;
+ 	padding: 40px 0px;
+ }
+ .features .ineer-feature {
+ 	width: 76%;
+ 	padding: 50px 30px;
+ 	
+ }
+ .features .ineer-feature img{
+ 	width: 100%;
+ 	height: 180px;
+
+margin-bottom: 10px;
+ }
+.features .ineer-feature h4{
+	font-size: 20px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 700;
+ margin-bottom: 10px;
+
+}
+.features .ineer-feature p {
+	font-size: 14px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 400;
+}
+.cl1 {
+background:#FDEBED;
+}
+.cl2{
+background: #EBF9F4;
+}
+.cl3{
+	background: #FFF7ED;
+}
+.footer {
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background: #008AFF;
+}
+.footer p {
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #f0f0f0;
+	font-weight: 400;
+	text-align: center;
+}
+.footer p a {
+	text-decoration: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.footer p a:hover{
+	color: #0F2656;
+}
+.footer p a:focus{
+	color: #0F2656;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+.container{
+	width: 90%;
+	margin: 0px auto;
+	
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 100%;
+	float: left;
+}
+.col-4 {
+	width: 100%;
+	float: left;
+}
+.logo{
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.header .navbar li a {
+ display: block;
+ font-size: 14px;
+ font-weight: 400;
+ text-transform: capitalize;
+ margin: 10px 0px 0px 10px;
+ color: #0F2656;
+ transition: 1s;
+}
+
+.header .navbar {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.features .ineer-feature {
+ 	width: 76%;
+ 	padding: 50px 30px;
+ 	margin: 10px 0px 10px 12px;
+ }
+ .banner {
+    width: 100%;
+    float: left;
+    padding: 20px 0px 20px;
+    text-align: center;
+}
+.banner h1{
+	font-size: 47px;
+	line-height: 1.2em;
+	color: #0F2656;
+	font-weight: 700;
+	margin: 0px 0px 10px;}
+
+	.sucessfull {
+    width: 100%;
+    float: left;
+    padding: 10px 0px 10px;
+}
+.sucessfull .left-box p{
+	font-size: 14px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 400;
+ margin: 0px 18px 10px 0px;
+ text-align: right;
+ }
+.sucessfull .right-box {
+ 	font-size: 30px;
+	line-height: 1.7em;
+	color: #0F2656;
+	font-weight: 700;
+	margin: 0px 0px 0px 35px;
+ }
+.features {
+ 	width: 100%;
+ 	float: left;
+ 	padding: 15px 0px;
+ }
+ .footer {
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	background: #008AFF;
+}
+features .ineer-feature h4{
+	font-size: 24px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 700;
+ margin: 0px 0px 0px 10px;
+
+}
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+.container{
+	width: 90%;
+	margin: 0px auto;
+	
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 100%;
+	float: left;
+}
+.col-4 {
+	width: 100%;
+	float: left;
+}
+.logo{
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.header .navbar li a {
+ display: block;
+ font-size: 19px;
+ font-weight: 400;
+ text-transform: capitalize;
+ margin: 10px 0px 0px 20px;
+ color: #0F2656;
+ transition: 1s;
+}
+
+.header .navbar {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.features .ineer-feature {
+ 	width: 80%;
+ 	padding: 50px 30px;
+ 	margin: 20px 0px 20px 17px;
+ }
+ .banner {
+    width: 100%;
+    float: left;
+    padding: 20px 0px 20px;
+    text-align: center;
+}
+.banner h1{
+	font-size: 50px;
+	line-height: 1.5em;
+	color: #0F2656;
+	font-weight: 700;
+	margin: 10px 0px 10px;}
+
+	.sucessfull {
+    width: 100%;
+    float: left;
+    padding: 20px 0px 10px;
+}
+.sucessfull .left-box p{
+	font-size: 18px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 400;
+ margin: 0px 33px 20px 0px;
+ text-align: right;
+ }
+.sucessfull .right-box {
+ 	font-size: 40px;
+	line-height: 1.7em;
+	color: #0F2656;
+	font-weight: 700;
+	margin: 0px 0px 0px 45px;
+ }
+.features {
+ 	width: 100%;
+ 	float: left;
+ 	padding: 15px 0px;
+
+ }
+ .footer {
+	width: 100%;
+	float: left;
+	padding: 18px 0px;
+	background: #008AFF;
+}
+.banner p {
+ font-size: 18px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 400;
+ margin: 0px 0px 20px;
+} 
+.features .ineer-feature h4{
+	font-size: 32px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 700;
+ margin-bottom: 10px;
+
+}
+.features .ineer-feature p {
+	font-size: 18px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 400;
+}
+.sucessfull .left-box h1 {
+font-size: 52px;
+	line-height: 1.4em;
+	color: #F15666;
+	font-weight: 700;
+	margin: 0px 25px 0px 5px;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+.container{
+	width: 90%;
+	margin: 0px auto;
+	
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 100%;
+	float: left;
+}
+.col-4 {
+	width: 100%;
+	float: left;
+}
+.logo{
+	width: 100%;
+	display: block;
+	text-align: center;
+	height: 75px;
+
+}
+.header .navbar li a {
+ display: block;
+ font-size: 27px;
+ font-weight: 400;
+ text-transform: capitalize;
+ margin: 10px 0px 0px 20px;
+ color: #0F2656;
+ transition: 1s;
+}
+
+.header .navbar {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.features .ineer-feature {
+ 	width: 85%;
+ 	padding: 50px 30px;
+ 	margin: 20px 0px 20px 22px;
+ }
+ .banner {
+    width: 100%;
+    float: left;
+    padding: 20px 0px 20px;
+    text-align: center;
+}
+.banner h1{
+	font-size: 57px;
+	line-height: 1.5em;
+	color: #0F2656;
+	font-weight: 700;
+	margin: 15px 0px 10px;}
+
+	.sucessfull {
+    width: 100%;
+    float: left;
+    padding: 20px 0px 10px;
+}
+.sucessfull .left-box p{
+	font-size: 27px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 400;
+ margin: 0px 38px 20px 0px;
+ text-align: right;
+ }
+.sucessfull .right-box {
+ 	font-size: 48px;
+	line-height: 1.7em;
+	color: #0F2656;
+	font-weight: 700;
+	margin: 0px 0px 0px 45px;
+ }
+.features {
+ 	width: 100%;
+ 	float: left;
+ 	padding: 15px 0px;
+
+ }
+ .footer {
+	width: 100%;
+	float: left;
+	padding: 24px 0px;
+	background: #008AFF;
+}
+.banner p {
+ font-size: 27px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 400;
+ margin: 0px 0px 20px;
+} 
+.features .ineer-feature h4{
+	font-size: 48px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 700;
+ margin-bottom: 10px;
+margin-left: 9px;
+
+}
+.features .ineer-feature p {
+	font-size: 27px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 400;
+}
+.sucessfull .left-box h1 {
+font-size: 62px;
+	line-height: 1.4em;
+	color: #F15666;
+	font-weight: 700;
+	margin: 0px 29px 0px 5px;
+}
+.logo img {
+	height: 60px;
+}
+}
+@media (min-width: 279px) and (max-width: 319px)
+{
+	.container{
+	width: 60%;
+	margin: 0px auto;
+
+	
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 100%;
+	float: left;
+}
+.col-4 {
+	width: 100%;
+	float: left;
+}
+.header .navbar {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.header .navbar li a {
+ display: inline-block;
+ font-size: 8px;
+ font-weight: 400;
+ text-transform: capitalize;
+ margin: 3px 0px 0px 3px;
+ color: #0F2656;
+ transition: 1s;
+}
+.logo img {
+	height: 20px;
+}
+.logo{
+	width: 100%;
+	display: block;
+	text-align: center;
+height: 25px;}
+
+.banner {
+	width: 100%;
+	float: left;
+	padding: 15px 0px 10px;
+	text-align: center;
+}
+.banner h1{
+	font-size: 20px;
+	line-height: 1.5em;
+	color: #0F2656;
+	font-weight: 700;
+	margin: 0px 0px 10px;
+}
+.banner p {
+ font-size: 8px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 400;
+ margin: 0px 0px 20px;
+} 
+.sucessfull {
+	width: 100%;
+	float: left;
+	padding: 10px 0px 20px;
+}
+.sucessfull .left-box h1 {
+font-size: 20px;
+	line-height: 1.4em;
+	color: #F15666;
+	font-weight: 700;
+	margin: 0px 15px 0px 5px;
+}
+.sucessfull .left-box p{
+	font-size: 8px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 400;
+ }
+ .sucessfull .right-box {
+ 	font-size: 15px;
+	line-height: 1.4em;
+	color: #0F2656;
+	font-weight: 700;
+	margin: 10px 0px 0px 15px;
+ }
+ .features {
+ 	width: 85%;
+ 	float: left;
+ 	padding: 10px 0px;
+ }
+ .features .ineer-feature {
+ 	width: 85%;
+ 	padding: 50px 30px;
+ 	margin: 0px 35px 13px 0px;
+ }
+ .features .ineer-feature h4{
+	font-size: 15px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 700;
+ margin-bottom: 10px;
+
+}
+.features .ineer-feature p {
+	font-size: 8px;
+ line-height: 1.7em;
+ color: #0F2656;
+ font-weight: 400;
+}
+.footer {
+	width: 100%;
+	float: left;
+	padding: 4px 0px;
+	background: #008AFF;
+}
+footer p {
+	font-size: 8px;
+	line-height: 1.5em;
+	color: #f0f0f0;
+	font-weight: 400;
+	text-align: center;
+}
+}
